@@ -90,7 +90,7 @@ describe("Object.clone", () => {
   });
 });
 
-describe.only("Object.get", () => {
+describe("Object.get", () => {
   test("returns the value for the given key", () => {
     expect(
       Object.get(
@@ -161,7 +161,7 @@ describe("Object.has", () => {
   });
 });
 
-describe.only("Object.sum", () => {
+describe("Object.sum", () => {
   test("returns the sum of all the values when all values are numbers", () => {
     const obj = {
       a: 1,
@@ -199,7 +199,7 @@ describe.only("Object.sum", () => {
   });
 });
 
-describe("Object.invert", () => {
+describe.only("Object.invert", () => {
   test("returns a new object which is the inversion of the given object", () => {
     const original = {
       name: "Sally",
