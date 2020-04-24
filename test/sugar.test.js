@@ -199,7 +199,7 @@ describe("Object.sum", () => {
   });
 });
 
-describe.only("Object.invert", () => {
+describe("Object.invert", () => {
   test("returns a new object which is the inversion of the given object", () => {
     const original = {
       name: "Sally",
